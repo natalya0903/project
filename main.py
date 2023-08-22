@@ -1,11 +1,9 @@
-# put your python code here
-a=int(input())
-b=int(input())
-c=int(input())
-if a==b and a==c and b==c:
-  print('Равносторонний')
-elif a==b or a==c or b==c:
-  print('Равнобедренный')
-else:
-  print('Разносторонний')
-  
+# Задача 1.1.
+
+# Есть строка с перечислением песен
+
+my_favorite_songs = 'Waste a Moment, Staying\' Alive, A Sorta Fairytale, Start Me Up, New Salvation'
+
+# Выведите на консоль с помощью индексации строки, последовательно: первый трек, последний, второй, второй с конца
+# Нельзя переопределять my_favorite_songs и запятая не должна выводиться.
+print(my_favorite_songs[0:14])
